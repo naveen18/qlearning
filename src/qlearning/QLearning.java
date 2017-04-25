@@ -71,7 +71,6 @@ class QLearning {
 			ql.currState.setX(0);
 			ql.currState.setY(0);
 			int numSteps = 0;
-			System.out.println("mfdm");
 			while ((ql.currState.getX() < QLearning.gridLength - 1)
 					|| (ql.currState.getY() < QLearning.gridBreadth - 1)) {
 				// run while loop till we reach bottom right corner
